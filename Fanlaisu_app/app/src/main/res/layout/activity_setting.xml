@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/button_style1"
+        android:drawableRight="@drawable/next"
+        android:paddingRight="15dp"
+        android:text="账号安全" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:gravity="center_vertical"
+        android:background="@drawable/button_style1"
+        android:drawableRight="@drawable/next"
+        android:paddingRight="15dp"
+        android:text="第三方绑定"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:gravity="center_vertical"
+        android:background="@drawable/button_style1"
+        android:drawableRight="@drawable/next"
+        android:paddingRight="15dp"
+        android:text="关于饭来速"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:gravity="center_vertical"
+        android:background="@drawable/button_style1"
+        android:drawableRight="@drawable/next"
+        android:paddingRight="15dp"
+        android:text="分享APP"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:gravity="center_vertical"
+        android:background="@drawable/button_style1"
+        android:drawableRight="@drawable/next"
+        android:paddingRight="15dp"
+        android:text="请开发者吃份薯条(*^_^*)"/>
+</RelativeLayout>

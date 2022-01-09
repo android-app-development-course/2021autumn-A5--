@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textSize="25dp"
+        android:text="我的"/>
+
+
+    <ImageView
+        android:id="@+id/touxiang"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/xiugai"
+        android:src="@drawable/circle_images"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="180dp"
+        android:text="kotlin"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/username"
+        android:text="ID：123456"
+        android:textSize="20sp"
+
+        />
+
+    <!--    <View-->
+    <!--        android:id="@+id/strut"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="20dp"-->
+    <!--        android:layout_below="@id/userid"-->
+    <!--        android:layout_above="@id/button2"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button_style1"
+        android:drawableLeft="@drawable/score"
+        android:drawableRight="@drawable/next"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="信誉分" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button_style1"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/order"
+        android:drawableRight="@drawable/next"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="我的订单" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button_style1"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/modify"
+        android:drawableRight="@drawable/next"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="资料修改" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button_style1"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/setting"
+        android:drawableRight="@drawable/next"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="设置" />
+
+    <!--    <View-->
+    <!--        android:id="@+id/strut2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="20dp"-->
+    <!--        android:layout_below="@id/button5"-->
+    <!--        />-->
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button5"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button_style1"
+        android:drawableLeft="@drawable/logout"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="退出登录" />
+
+
+    <TextView
+        android:id="@+id/text_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:textAlignment="center"
+        android:textSize="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

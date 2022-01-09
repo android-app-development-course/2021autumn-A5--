@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_Local">Local</string>
+    <string name="title_message">Message</string>
+    <string name="title_personal">Personal</string>
+
+
+
+
+
+    <string name="app_name">text_Activity</string>
+    <string name="title">Hello World</string>
+    <string name="account">please input your account</string>
+    <string name="password">please input your password</string>
+    <string name="account_title">account</string>
+    <string name="password_title">password</string>
+    <string name="register">Register</string>
+    <string name="check">save password</string>
+
+    <string name="main_title">饭来速</string>
+    <string name="Login">Login</string>
+    <string name="remember">remember</string>
+    <string name="disremember">forget password</string>
+    <string name="Login_succeed">Login_succeed</string>
+    <string name="title_activity_main_interface">Main_Interface</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_qr_code">qr_code</string>
+</resources>

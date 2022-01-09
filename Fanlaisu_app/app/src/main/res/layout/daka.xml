@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daka">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textSize="25dp"
+        android:text="每日打卡"/>
+
+
+
+
+    <com.example.fanlaisu.SignInViews
+        android:id="@+id/btn"
+        android:layout_marginTop="365dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="快来打卡啦！"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        tools:ignore="MissingClass,MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+</RelativeLayout>
